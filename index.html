@@ -3,139 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Malek Bouallegue | Digital Marketer & TESOL</title>
+    <title>Malek Bouallegue | Professional Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
-    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
+        :root {
+            --cognizant-blue: #0033A0; /* Signature Cognizant Blue */
+            --cognizant-light-blue: #0072CE;
+            --cognizant-gray: #53565A;
+        }
         body { font-family: 'Inter', sans-serif; }
-        .shadcn-card { @apply bg-white border border-slate-200 rounded-xl shadow-sm; }
-        .badge { @apply px-2.5 py-0.5 rounded-full text-xs font-semibold bg-slate-100 text-slate-800 border border-slate-200; }
+        .bg-cognizant { background-color: var(--cognizant-blue); }
+        .text-cognizant { color: var(--cognizant-blue); }
+        .border-cognizant { border-color: var(--cognizant-blue); }
+        .btn-cognizant { background-color: var(--cognizant-blue); color: white; transition: 0.3s; }
+        .btn-cognizant:hover { background-color: var(--cognizant-light-blue); }
     </style>
 </head>
-<body class="bg-slate-50 text-slate-900 antialiased">
+<body class="bg-white text-slate-900 antialiased">
 
-    <nav class="sticky top-0 z-50 w-full border-b border-slate-200 bg-white/80 backdrop-blur-md">
-        <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
-            <span class="font-bold text-lg tracking-tight">MB.</span>
-            <div class="space-x-8 text-sm font-medium text-slate-600">
-                <a href="#about" class="hover:text-black">About</a>
-                <a href="#experience" class="hover:text-black">Experience</a>
-                <a href="#skills" class="hover:text-black">Skills</a>
-                <a href="#analytics" class="hover:text-black text-blue-600">Analytics Lab</a>
+    <nav class="border-b-4 border-cognizant bg-white sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+            <span class="font-black text-2xl tracking-tighter text-cognizant">MALEK BOUALLEGUE</span>
+            <div class="hidden md:flex space-x-8 text-sm font-bold uppercase tracking-widest text-slate-600">
+                <a href="#experience" class="hover:text-cognizant">Experience</a>
+                <a href="#skills" class="hover:text-cognizant">Skills</a>
+                <a href="#volunteer" class="hover:text-cognizant">Impact</a>
+                <a href="mailto:malekbouallegue44@gmail.com" class="text-cognizant border-2 border-cognizant px-4 py-2 rounded">Contact</a>
             </div>
         </div>
     </nav>
 
-    <main class="max-w-5xl mx-auto px-6 py-12 space-y-20">
-        
-        <section id="about" class="grid grid-cols-1 md:grid-cols-3 gap-12 items-center">
-            <div class="md:col-span-2 space-y-6">
-                <h1 class="text-5xl font-extrabold tracking-tighter lg:text-6xl">Malek Bouallegue</h1>
-                <p class="text-xl text-slate-500 leading-relaxed">
-                    Digital Marketing Professional specializing in <strong>Email Marketing</strong> and <strong>Performance Analysis</strong>[cite: 3]. 
-                    Bridging the gap between human behavior (TESOL) and data-driven growth[cite: 13, 29].
+    <header class="bg-slate-50 py-20 border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6">
+                <h1 class="text-5xl font-extrabold text-slate-900 leading-tight">Digital Marketing & Strategy Professional</h1>
+                <p class="text-xl text-slate-600 leading-relaxed">
+                    Early-career professional with hands-on experience in email marketing, campaign optimization, and data-driven strategy development.
                 </p>
-                <div class="flex gap-4">
-                    <a href="mailto:malekbouallegue44@gmail.com" class="bg-black text-white px-6 py-3 rounded-lg font-medium hover:bg-slate-800 transition">Contact Me [cite: 2]</a>
-                    <a href="https://linkedin.com/in/malekbouallegue" target="_blank" class="border border-slate-200 px-6 py-3 rounded-lg font-medium hover:bg-slate-50 transition">LinkedIn [cite: 2]</a>
+                <div class="flex flex-wrap gap-4">
+                    <span class="bg-blue-100 text-cognizant px-3 py-1 rounded text-sm font-bold uppercase">Email Marketing</span>
+                    <span class="bg-blue-100 text-cognizant px-3 py-1 rounded text-sm font-bold uppercase">Data Analysis</span>
+                    <span class="bg-blue-100 text-cognizant px-3 py-1 rounded text-sm font-bold uppercase">E-Commerce</span>
                 </div>
             </div>
-            <div class="hidden md:block">
-                <div class="w-64 h-64 bg-slate-200 rounded-2xl rotate-3 border-4 border-white shadow-xl overflow-hidden">
-                    <img src="profile.jpg" alt="Malek" class="object-cover w-full h-full grayscale hover:grayscale-0 transition duration-500">
-                </div>
+            <div class="bg-white p-8 rounded-xl shadow-xl border-t-8 border-cognizant">
+                <h3 class="font-bold text-lg mb-4 text-cognizant underline">Quick Contact</h3>
+                <p class="text-slate-700"><strong>Email:</strong> malekbouallegue44@gmail.com</p>
+                <p class="text-slate-700"><strong>Phone:</strong> +216 23 697 826</p>
+                <p class="text-slate-700"><strong>Location:</strong> Tunisia</p>
+                <a href="https://linkedin.com/in/malekbouallegue" target="_blank" class="block mt-6 text-center btn-cognizant py-3 rounded-lg font-bold">Connect on LinkedIn</a>
             </div>
-        </section>
+        </div>
+    </header>
 
-        <section id="experience" class="space-y-8">
-            <h2 class="text-3xl font-bold tracking-tight">Work Experience</h2>
-            <div class="grid gap-6">
-                <div class="p-6 bg-white border border-slate-200 rounded-xl shadow-sm hover:shadow-md transition">
-                    <div class="flex justify-between items-start mb-4">
-                        <div>
-                            <h3 class="font-bold text-lg">Email Marketing Analyst Intern</h3>
-                            <p class="text-slate-500">MASS Analytics</p>
-                        </div>
-                        <span class="text-sm font-medium text-slate-400">June 2024 - Aug 2024 [cite: 32]</span>
+    <main class="max-w-6xl mx-auto px-6 py-20 space-y-24">
+
+        <section id="experience">
+            <h2 class="text-3xl font-black text-cognizant mb-12 uppercase tracking-tight">Work Experience</h2>
+            <div class="space-y-12">
+                <div class="relative pl-8 border-l-2 border-slate-200">
+                    <div class="absolute w-4 h-4 bg-cognizant rounded-full -left-[9px] top-1"></div>
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-xl font-bold">E-Commerce Intern</h3>
+                        <span class="text-slate-400 font-bold">Sept 2024 - Oct 2024</span>
                     </div>
-                    <ul class="text-slate-600 text-sm space-y-2 list-disc ml-4">
-                        <li>Analyzed email performance to improve engagement and conversion rates[cite: 23].</li>
+                    <p class="text-cognizant font-semibold mb-4">Ministry of Trade and Export Development</p>
+                    <ul class="text-slate-600 space-y-2 list-disc ml-4">
+                        <li>Researched export market trends and trade policies[cite: 19].</li>
+                        <li>Contributed to projects enhancing Tunisia's export capabilities[cite: 20].</li>
+                    </ul>
+                </div>
+
+                <div class="relative pl-8 border-l-2 border-slate-200">
+                    <div class="absolute w-4 h-4 bg-cognizant rounded-full -left-[9px] top-1"></div>
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-xl font-bold">Email Marketing Analyst Intern</h3>
+                        <span class="text-slate-400 font-bold">June 2024 - Aug 2024</span>
+                    </div>
+                    <p class="text-cognizant font-semibold mb-4">MASS Analytics</p>
+                    <ul class="text-slate-600 space-y-2 list-disc ml-4">
+                        <li>Analyzed email performance to improve engagement rates[cite: 23].</li>
                         <li>Managed B2B campaigns and conducted A/B testing[cite: 24, 29].</li>
                     </ul>
                 </div>
+            </div>
+        </section>
 
-                <div class="p-6 bg-white border border-slate-200 rounded-xl shadow-sm hover:shadow-md transition">
-                    <div class="flex justify-between items-start mb-4">
-                        <div>
-                            <h3 class="font-bold text-lg">E-Commerce Intern</h3>
-                            <p class="text-slate-500">Ministry of Trade and Export Development</p>
-                        </div>
-                        <span class="text-sm font-medium text-slate-400">Sept 2024 - Oct 2024 [cite: 28]</span>
-                    </div>
-                    <ul class="text-slate-600 text-sm space-y-2 list-disc ml-4">
-                        <li>Researched export market trends and trade policies[cite: 19].</li>
-                        <li>Contributed to Tunisia's export capability enhancement projects[cite: 20].</li>
+        <section id="skills" class="bg-slate-900 text-white p-12 rounded-3xl shadow-2xl">
+            <h2 class="text-3xl font-black mb-12 uppercase">Technical Arsenal</h2>
+            <div class="grid md:grid-cols-3 gap-12">
+                <div>
+                    <h4 class="text-cognizant font-bold text-blue-400 mb-6 uppercase tracking-widest">Marketing</h4>
+                    <ul class="space-y-2 text-slate-300">
+                        <li>Copywriting & SEO [cite: 7]</li>
+                        <li>Social Media Management [cite: 7]</li>
+                        <li>Email Optimization [cite: 7]</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-cognizant font-bold text-blue-400 mb-6 uppercase tracking-widest">Analytics</h4>
+                    <ul class="space-y-2 text-slate-300">
+                        <li>Google Analytics & GTM [cite: 8]</li>
+                        <li>Power BI & Excel [cite: 8]</li>
+                        <li>Market Research [cite: 11]</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-cognizant font-bold text-blue-400 mb-6 uppercase tracking-widest">Tools</h4>
+                    <ul class="space-y-2 text-slate-300">
+                        <li>CRM (HubSpot, Apollo) [cite: 7]</li>
+                        <li>Adobe Suite & Canva [cite: 9]</li>
+                        <li>LMS Platforms [cite: 10]</li>
                     </ul>
                 </div>
             </div>
         </section>
 
-        <section id="skills" class="space-y-8">
-            <h2 class="text-3xl font-bold tracking-tight">Technical Arsenal</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div class="p-6 border border-slate-200 rounded-xl bg-slate-100/50">
-                    <h4 class="font-bold mb-4">Marketing & Sales</h4>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="badge">Email Marketing [cite: 7]</span>
-                        <span class="badge">SEO [cite: 7]</span>
-                        <span class="badge">HubSpot CRM [cite: 7]</span>
-                        <span class="badge">A/B Testing [cite: 7]</span>
-                    </div>
+        <section id="volunteer">
+            <h2 class="text-3xl font-black text-cognizant mb-12 uppercase tracking-tight">Volunteer Impact</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="p-8 border border-slate-200 rounded-xl hover:border-cognizant transition">
+                    <h3 class="font-bold text-lg mb-2 text-cognizant">JCI Leaders Beb Souika</h3>
+                    <p class="text-slate-600 italic mb-4">External Relations Consultant [cite: 43]</p>
+                    <p class="text-sm text-slate-500">Sent over 1500 outreach emails to corporate sponsors and successfully secured event sponsorship[cite: 43].</p>
                 </div>
-                <div class="p-6 border border-slate-200 rounded-xl bg-slate-100/50">
-                    <h4 class="font-bold mb-4">Analytics & BI</h4>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="badge">Google Analytics 4 [cite: 8]</span>
-                        <span class="badge">Power BI [cite: 8]</span>
-                        <span class="badge">Google Tag Manager</span>
-                        <span class="badge">Looker Studio</span>
-                    </div>
-                </div>
-                <div class="p-6 border border-slate-200 rounded-xl bg-slate-100/50">
-                    <h4 class="font-bold mb-4">Design</h4>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="badge">Photoshop [cite: 9]</span>
-                        <span class="badge">Illustrator [cite: 9]</span>
-                        <span class="badge">Canva [cite: 9]</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="analytics" class="space-y-8">
-            <div class="bg-black text-white p-10 rounded-2xl space-y-6">
-                <h2 class="text-3xl font-bold tracking-tight">Analytics Lab</h2>
-                <p class="text-slate-400 max-w-2xl">
-                    I believe in data transparency. Below is a live <strong>Looker Studio</strong> dashboard showcasing my simulated campaign performance data.
-                </p>
-                <div class="aspect-video w-full bg-slate-900 rounded-lg border border-slate-800 flex items-center justify-center text-slate-500">
-                    <p>[ Looker Studio Dashboard Embed Goes Here ]</p>
+                <div class="p-8 border border-slate-200 rounded-xl hover:border-cognizant transition">
+                    <h3 class="font-bold text-lg mb-2 text-cognizant">American Corner Tunis</h3>
+                    <p class="text-slate-600 italic mb-4">English Session Moderator [cite: 46]</p>
+                    <p class="text-sm text-slate-500">Regularly moderating English conversation sessions and engaged participant in Debate Club[cite: 46].</p>
                 </div>
             </div>
         </section>
 
     </main>
 
-    <footer class="border-t border-slate-200 py-12 bg-white">
-        <div class="max-w-5xl mx-auto px-6 text-center text-slate-500 text-sm">
-            <p>© 2026 Malek Bouallegue. Built with GitHub Pages & shadcn/ui style[cite: 25].</p>
+    <footer class="bg-slate-50 py-20 border-t border-slate-200">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="text-center md:text-left">
+                <p class="font-black text-cognizant text-xl">MALEK BOUALLEGUE</p>
+                <p class="text-slate-500">Master’s in TESOL | Digital Marketer [cite: 13, 3]</p>
+            </div>
+            <div class="flex gap-6">
+                <a href="#experience" class="text-slate-600 hover:text-cognizant font-bold uppercase text-xs">Experience</a>
+                <a href="#skills" class="text-slate-600 hover:text-cognizant font-bold uppercase text-xs">Skills</a>
+                <a href="mailto:malekbouallegue44@gmail.com" class="text-slate-600 hover:text-cognizant font-bold uppercase text-xs">Contact</a>
+            </div>
         </div>
     </footer>
 
