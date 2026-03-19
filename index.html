@@ -3,135 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Malek Bouallegue | Strategy & Digital Marketing</title>
+    <title>Malek Bouallegue | Home</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <style>
-        body { font-family: 'Outfit', sans-serif; scroll-behavior: smooth; }
-        .nav-link { @apply text-slate-500 hover:text-black font-semibold transition-colors text-sm; }
-        .section-card { @apply bg-white border border-slate-100 p-10 rounded-[2.5rem] shadow-sm mb-12 hover:shadow-md transition-shadow; }
-        .social-icon { @apply text-2xl text-slate-400 hover:text-black transition-all hover:scale-110 flex items-center justify-center w-10 h-10; }
-        .badge { @apply bg-blue-50 text-blue-600 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider; }
-    </style>
+    <style>body { font-family: 'Outfit', sans-serif; }</style>
 </head>
 <body class="bg-[#FCFCFC] text-slate-900">
-
-    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-100">
-        <div class="max-w-6xl mx-auto px-8 h-20 flex items-center justify-between">
-            <span class="font-bold text-xl tracking-tighter uppercase">Malek Bouallegue</span>
-            <div class="hidden md:flex gap-10 items-center">
-                <a href="#about" class="nav-link">About</a>
-                <a href="#resume" class="nav-link">Resume</a>
-                <a href="#writing" class="nav-link">Writing</a>
-                <a href="#volunteer" class="nav-link">Impact</a>
-                <a href="mailto:malekbouallegue44@gmail.com" class="bg-black text-white px-6 py-2 rounded-full text-sm font-bold hover:bg-slate-800 transition">Contact</a>
-            </div>
+    <nav class="p-8 max-w-6xl mx-auto flex justify-between items-center">
+        <span class="font-bold text-xl uppercase tracking-tighter">Malek B.</span>
+        <div class="hidden md:flex space-x-8 text-xs font-bold uppercase tracking-widest text-slate-400">
+            <a href="index.html" class="text-black">About Me</a>
+            <a href="resume.html" class="hover:text-black transition">Resume</a>
+            <a href="projects.html" class="hover:text-black transition">Projects</a>
+            <a href="volunteer.html" class="hover:text-black transition">Volunteer Space</a>
+            <a href="mailto:malekbouallegue44@gmail.com" class="hover:text-black transition text-blue-600">Contact</a>
         </div>
     </nav>
 
-    <main class="max-w-6xl mx-auto px-8 py-20 space-y-24">
-        
-        <section id="about" class="grid md:grid-cols-2 gap-16 items-center border-b border-slate-100 pb-24">
-            <div class="space-y-8">
-                <div class="inline-block px-4 py-1 rounded-full bg-slate-100 text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500">
-                    Master’s in TESOL • Digital Strategist
-                </div>
-                <h1 class="text-7xl font-bold tracking-tighter leading-none">Welcome</h1>
-                <p class="text-xl text-slate-500 leading-relaxed font-light">
-                    I view digital marketing through the lens of engagement and human behavior. Whether coaching <strong>50+ students</strong> or managing <strong>1,500+ B2B leads</strong>, my focus is clear communication that drives action.
-                </p>
-                <div class="flex gap-4 items-center pt-4">
-                    <a href="https://www.linkedin.com/in/malekbouallegue" target="_blank" class="social-icon" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://medium.com/@malekbouallegue" target="_blank" class="social-icon" title="Medium Writing"><i class="fa-brands fa-medium"></i></a>
-                    <a href="https://x.com/BouallegueMa" target="_blank" class="social-icon" title="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
-                    <a href="mailto:malekbouallegue44@gmail.com" class="social-icon" title="Email Me"><i class="fa-solid fa-envelope"></i></a>
-                </div>
+    <main class="max-w-5xl mx-auto px-8 py-20 grid md:grid-cols-2 gap-12 items-center">
+        <div class="space-y-8">
+            <h1 class="text-7xl font-bold tracking-tighter leading-none">Strategist & <br><span class="text-blue-600">Educator.</span></h1>
+            <p class="text-xl text-slate-500 font-light leading-relaxed">
+                Coming from a Master’s in TESOL, I view digital marketing through the lens of engagement and human behavior. Whether coaching <strong>50+ students</strong> or managing <strong>1,500+ B2B leads</strong>, my focus is clear communication that drives action.
+            </p>
+            <div class="flex gap-6 pt-4">
+                <a href="https://www.linkedin.com/in/malekbouallegue" target="_blank" class="text-2xl text-slate-300 hover:text-black transition"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://medium.com/@malekbouallegue" target="_blank" class="text-2xl text-slate-300 hover:text-black transition"><i class="fa-brands fa-medium"></i></a>
+                <a href="https://x.com/BouallegueMa" target="_blank" class="text-2xl text-slate-300 hover:text-black transition"><i class="fa-brands fa-x-twitter"></i></a>
             </div>
-            <div class="relative">
-                <div class="aspect-square rounded-[4rem] overflow-hidden shadow-2xl bg-slate-100">
-                    <img src="profile.jpg" alt="Malek Bouallegue" class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-700">
-                </div>
-            </div>
-        </section>
-
-        <section id="writing" class="space-y-12">
-            <div class="flex justify-between items-end">
-                <h2 class="text-4xl font-bold tracking-tighter">Publications</h2>
-                <a href="https://medium.com/@malekbouallegue" target="_blank" class="text-sm font-bold border-b-2 border-black pb-1">Read on Medium ↗</a>
-            </div>
-            <div class="grid md:grid-cols-2 gap-8">
-                <div class="section-card group cursor-pointer" onclick="window.open('https://medium.com/@malekbouallegue', '_blank')">
-                    <div class="flex items-center gap-3 mb-6">
-                        <i class="fa-brands fa-medium text-3xl"></i>
-                        <span class="badge">Marketing Strategy</span>
-                    </div>
-                    <h3 class="text-2xl font-bold mb-4 group-hover:text-blue-600 transition">Engagement & Human Behavior</h3>
-                    <p class="text-slate-500 text-sm leading-relaxed">Analyzing the synergy between linguistic education and modern digital outreach strategies.</p>
-                </div>
-                <div class="section-card group cursor-pointer" onclick="window.open('https://medium.com/@malekbouallegue', '_blank')">
-                    <div class="flex items-center gap-3 mb-6">
-                        <i class="fa-brands fa-medium text-3xl"></i>
-                        <span class="badge">Analytics</span>
-                    </div>
-                    <h3 class="text-2xl font-bold mb-4 group-hover:text-blue-600 transition">Data-Driven Communication</h3>
-                    <p class="text-slate-500 text-sm leading-relaxed">How I scaled B2B outreach to 1,500+ leads using structured data and testing.</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="resume" class="grid md:grid-cols-3 gap-12">
-            <div class="md:col-span-2 space-y-6">
-                <h2 class="text-4xl font-bold tracking-tighter mb-8">Career Path</h2>
-                <div class="section-card">
-                    <h3 class="text-xl font-bold uppercase tracking-tight">E-Commerce Intern</h3>
-                    <p class="text-blue-600 font-bold text-sm mb-4">Ministry of Trade and Export Development</p>
-                    <p class="text-slate-500 text-sm leading-relaxed">Export market research and international trade strategy development.</p>
-                </div>
-                <div class="section-card">
-                    <h3 class="text-xl font-bold uppercase tracking-tight">Email Marketing Analyst</h3>
-                    <p class="text-blue-600 font-bold text-sm mb-4">MASS Analytics</p>
-                    <p class="text-slate-500 text-sm leading-relaxed">Managed 1,500+ outreach leads and applied A/B testing to optimize conversion.</p>
-                </div>
-            </div>
-            <div class="space-y-6">
-                <h2 class="text-4xl font-bold tracking-tighter mb-8">Training</h2>
-                <div class="p-6 border border-slate-100 rounded-[2rem] bg-white space-y-4 shadow-sm">
-                    <div class="text-xs font-bold text-slate-400 uppercase tracking-widest">Validated Skills</div>
-                    <ul class="text-sm space-y-4 font-medium text-slate-700">
-                        <li><i class="fa-solid fa-certificate text-blue-500 mr-2"></i> HP Life: Data Science</li>
-                        <li><i class="fa-solid fa-certificate text-blue-500 mr-2"></i> IBM: AI Ladder Framework</li>
-                        <li><i class="fa-solid fa-certificate text-blue-500 mr-2"></i> Udemy: Marketing Mix</li>
-                        <li><i class="fa-solid fa-certificate text-blue-500 mr-2"></i> Simplilearn: SEO Intro</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section id="volunteer" class="section-card bg-black text-white p-16">
-            <h2 class="text-4xl font-bold tracking-tighter mb-12">VOLUNTEER Space</h2>
-            <div class="grid md:grid-cols-2 gap-16">
-                <div class="space-y-4">
-                    <h3 class="text-xl font-bold text-blue-400">JCI Leaders Beb Souika</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">Secured corporate sponsorships via massive outreach. Commissioner for event success.</p>
-                </div>
-                <div class="space-y-4">
-                    <h3 class="text-xl font-bold text-blue-400">American Corner Tunis</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">Moderating English conversation sessions and news literacy workshops.</p>
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <footer class="text-center py-20 border-t border-slate-100 bg-white">
-        <div class="flex justify-center gap-10 mb-8">
-            <a href="https://www.linkedin.com/in/malekbouallegue" target="_blank" class="social-icon"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://medium.com/@malekbouallegue" target="_blank" class="social-icon"><i class="fa-brands fa-medium"></i></a>
-            <a href="https://x.com/BouallegueMa" target="_blank" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a>
         </div>
-        <p class="text-[10px] uppercase tracking-[0.5em] text-slate-300">© 2026 MALEK BOUALLEGUE • TUNISIA</p>
-    </footer>
-
+        <div class="relative">
+            <img src="profile.jpg" alt="Malek Bouallegue" class="rounded-[4rem] shadow-2xl w-full aspect-square object-cover grayscale hover:grayscale-0 transition duration-500">
+        </div>
+    </main>
 </body>
 </html>
