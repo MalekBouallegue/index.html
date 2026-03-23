@@ -1,96 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MV4VDR9M');</script>
-<!-- End Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MV4VDR9M');</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Malek Bouallegue | Home</title>
+    <title>Resume | Malek Bouallegue</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <style>body { font-family: 'Outfit', sans-serif; }</style>
+    <style>
+        body { font-family: 'Outfit', sans-serif; }
+        .resume-section { display: grid; gap: 2rem; padding-top: 3rem; padding-bottom: 3rem; border-bottom: 1px solid #f1f5f9; }
+        @media (min-width: 768px) { .resume-section { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+        .resume-label { font-size: 10px; font-weight: 900; text-transform: uppercase; letter-spacing: 0.3em; color: #2563eb; }
+        .bullet-list { list-style-type: none; margin-top: 0.75rem; }
+        .bullet-item { display: flex; gap: 0.75rem; margin-bottom: 0.75rem; color: #475569; font-size: 0.875rem; line-height: 1.625; }
+        .bullet-dot { color: #60a5fa; margin-top: 0.25rem; }
+    </style>
 </head>
 <body class="bg-[#FCFCFC] text-slate-900">
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MV4VDR9M"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MV4VDR9M"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <nav class="p-8 max-w-6xl mx-auto flex justify-between items-center">
-        <span class="font-bold text-xl uppercase tracking-tighter">Malek B.</span>
-        <div class="hidden md:flex space-x-8 text-xs font-bold uppercase tracking-widest text-slate-400">
-            <a href="index.html" class="text-black border-b border-black pb-1">About Me</a>
-            <a href="resume.html" class="hover:text-black transition">Resume</a>
+        <a href="index.html" class="font-bold text-xl uppercase tracking-tighter">Malek B.</a>
+        <div class="space-x-8 text-[10px] font-bold uppercase tracking-widest text-slate-400">
+            <a href="index.html" class="hover:text-black transition">About Me</a>
+            <a href="resume.html" class="text-black border-b border-black pb-1">Resume</a>
             <a href="projects.html" class="hover:text-black transition">Projects</a>
             <a href="volunteer.html" class="hover:text-black transition">Volunteer Space</a>
-            <a href="mailto:malekbouallegue44@gmail.com" class="hover:text-blue-600 transition font-bold">Contact</a>
         </div>
     </nav>
 
-    <main class="max-w-6xl mx-auto px-8 py-20 grid md:grid-cols-2 gap-16 items-center">
+    <main class="max-w-6xl mx-auto px-8 py-16">
         
-        <div class="space-y-8">
-            <div class="space-y-4">
-                <h1 class="text-7xl font-bold tracking-tighter leading-[0.9]">
-                    Welcome. <br>
-                    <span class="text-blue-600">I'm Malek.</span>
-                </h1>
+        <div class="resume-section">
+            <div class="resume-label">Professional Experience</div>
+            <div class="md:col-span-2 space-y-16">
                 
-                <p class="text-lg text-slate-500 font-light leading-relaxed max-w-md">
-Early-career digital marketing professional with hands-on experience in email marketing, campaign optimization, and performance analysis. Experienced in cross-functional growth meetings, client 
-communication, and data-driven strategy development. Highly motivated to expand strategic marketing skills and contribute to business growth. 
-                </p>
-            </div>
-
-            <div class="flex items-center gap-8 pt-4">
-                <a href="projects.html" class="bg-black text-white px-8 py-4 rounded-full text-[10px] font-bold uppercase tracking-widest hover:bg-blue-600 transition duration-300">
-                    View My Work
-                </a>
-
-                <div class="flex gap-6">
-                    <a href="https://www.linkedin.com/in/malekbouallegue" target="_blank" class="text-2xl text-slate-300 hover:text-black transition"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://medium.com/@malekbouallegue" target="_blank" class="text-2xl text-slate-300 hover:text-black transition"><i class="fa-brands fa-medium"></i></a>
-                    <a href="https://x.com/BouallegueMa" target="_blank" class="text-2xl text-slate-300 hover:text-black transition"><i class="fa-brands fa-x-twitter"></i></a>
+                <div class="space-y-4">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="text-xl font-bold">E-Commerce Intern</h3>
+                            <p class="text-slate-400 text-xs font-bold uppercase tracking-widest mt-1">Ministry of Trade and Export Development</p>
+                        </div>
+                        <span class="text-slate-300 text-[10px] font-bold bg-slate-50 px-3 py-1 rounded-full uppercase tracking-widest">Sept — Oct 2024</span>
+                    </div>
+                    <ul class="bullet-list">
+                        <li class="bullet-item"><span class="bullet-dot">●</span> Researching export market trends and identifying global trade opportunities.</li>
+                        <li class="bullet-item"><span class="bullet-dot">●</span> Preparing analytical reports on international trade policies.</li>
+                        <li class="bullet-item"><span class="bullet-dot">●</span> Contributing to strategic discussions on Tunisia’s market positioning.</li>
+                    </ul>
                 </div>
+
+                <div class="space-y-4">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="text-xl font-bold">Email Marketing Analyst Intern</h3>
+                            <p class="text-slate-400 text-xs font-bold uppercase tracking-widest mt-1">MASS Analytics</p>
+                        </div>
+                        <span class="text-slate-300 text-[10px] font-bold bg-slate-50 px-3 py-1 rounded-full uppercase tracking-widest">June — Aug 2024</span>
+                    </div>
+                    <ul class="bullet-list">
+                        <li class="bullet-item"><span class="bullet-dot">●</span> Analyzing B2B email performance to optimize engagement and ROI.</li>
+                        <li class="bullet-item"><span class="bullet-dot">●</span> Managing A/B testing and growth strategies for lead generation.</li>
+                        <li class="bullet-item"><span class="bullet-dot">●</span> Creating digital assets and visuals using Canva for social media campaigns.</li>
+                    </ul>
+                </div>
+
+                <div class="space-y-4">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="text-xl font-bold">English Tutor</h3>
+                            <p class="text-slate-400 text-xs font-bold uppercase tracking-widest mt-1">Freelance</p>
+                        </div>
+                        <span class="text-slate-300 text-[10px] font-bold bg-slate-50 px-3 py-1 rounded-full uppercase tracking-widest">2021 — 2022</span>
+                    </div>
+                    <ul class="bullet-list">
+                        <li class="bullet-item"><span class="bullet-dot">●</span> Mentored 50+ students with a 30% average improvement in test scores.</li>
+                        <li class="bullet-item"><span class="bullet-dot">●</span> Developed customized learning programs for business communication.</li>
+                    </ul>
+                </div>
+
             </div>
         </div>
 
-        <div class="relative group">
-            <div class="absolute -inset-4 bg-blue-50 rounded-[4rem] -rotate-3 transition group-hover:rotate-0 duration-500"></div>
-            <img src="profilepic.jpeg" 
-                 alt="Malek Bouallegue" 
-                 class="relative rounded-[4rem] shadow-2xl w-full aspect-[4/5] object-cover grayscale hover:grayscale-0 transition duration-700">
+        <div class="resume-section">
+            <div class="resume-label">Education</div>
+            <div class="md:col-span-2 space-y-10">
+                <div class="group">
+                    <p class="text-xs text-blue-600 font-bold mb-1 italic">Expected 2027</p>
+                    <h4 class="font-bold text-lg leading-tight">Master’s Degree in TESOL</h4>
+                    <p class="text-slate-500 text-sm">Faculty of Humanities and Social Sciences of Tunis (FSHST)</p>
+                </div>
+                <div class="group">
+                    <p class="text-xs text-blue-600 font-bold mb-1 italic">Graduated 2025</p>
+                    <h4 class="font-bold text-lg leading-tight">Bachelor’s Degree in English for Business & Communication</h4>
+                    <p class="text-slate-500 text-sm">The Higher Institute of Applied Studies in Humanities of Tunis (ISEAHT)</p>
+                </div>
+            </div>
         </div>
 
     </main>
 
-    <section class="bg-white py-20 border-t border-slate-100">
-        <div class="max-w-6xl mx-auto px-8">
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
-                <div>
-                    <h3 class="text-3xl font-bold tracking-tighter">50+</h3>
-                    <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mt-2">Students Mentored</p>
-                </div>
-                <div>
-                    <h3 class="text-3xl font-bold tracking-tighter">1.5K+</h3>
-                    <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mt-2">Outreach Leads</p>
-                </div>
-                <div>
-                    <h3 class="text-3xl font-bold tracking-tighter">MMM</h3>
-                    <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mt-2">Data Modeling</p>
-                </div>
-                <div>
-                    <h3 class="text-3xl font-bold tracking-tighter">TESOL</h3>
-                    <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mt-2">Master's Focus</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <footer class="py-20 text-center">
+        <p class="text-[10px] font-bold text-slate-300 uppercase tracking-[0.5em]">Malek Bouallegue • 2026</p>
+    </footer>
 
 </body>
 </html>
