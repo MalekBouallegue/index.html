@@ -1,133 +1,108 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Resume | Malek Bouallegue</title>
-
     <script src="https://cdn.tailwindcss.com"></script>
-
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
-
     <style>
-
         body { font-family: 'Outfit', sans-serif; }
-
-        .resume-section { @apply grid md:grid-cols-3 gap-8 py-12 border-b border-slate-100; }
-
-        .resume-label { @apply text-[10px] font-black uppercase tracking-[0.3em] text-blue-600; }
-
-        .bullet-list { @apply list-none space-y-3 text-slate-600 text-sm leading-relaxed; }
-
-        .bullet-item { @apply flex gap-3; }
-
-        .bullet-dot { @apply text-blue-400 mt-1; }
-
+        /* Use standard CSS for these utility classes if not using a build tool */
+        .resume-section { display: grid; gap: 2rem; padding-top: 3rem; padding-bottom: 3rem; border-bottom: 1px solid #f1f5f9; }
+        @media (min-width: 768px) { .resume-section { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+        .resume-label { font-size: 10px; font-weight: 900; text-transform: uppercase; letter-spacing: 0.3em; color: #2563eb; }
+        .bullet-list { list-style-type: none; margin-top: 0.75rem; }
+        .bullet-item { display: flex; gap: 0.75rem; margin-bottom: 0.75rem; color: #475569; font-size: 0.875rem; line-height: 1.625; }
+        .bullet-dot { color: #60a5fa; margin-top: 0.25rem; }
     </style>
-
 </head>
-
 <body class="bg-[#FCFCFC] text-slate-900">
 
-
-
     <nav class="p-8 max-w-6xl mx-auto flex justify-between items-center">
-
         <a href="index.html" class="font-bold text-xl uppercase tracking-tighter">Malek B.</a>
-
         <div class="space-x-8 text-[10px] font-bold uppercase tracking-widest text-slate-400">
-
             <a href="index.html" class="hover:text-black transition">About Me</a>
-
             <a href="resume.html" class="text-black border-b border-black pb-1">Resume</a>
-
             <a href="projects.html" class="hover:text-black transition">Projects</a>
-
             <a href="volunteer.html" class="hover:text-black transition">Volunteer Space</a>
-
         </div>
-
     </nav>
 
-
-
-    <main class="max-w-5xl mx-auto px-8 py-16">
-
+    <main class="max-w-6xl mx-auto px-8 py-16">
         
+        <div class="resume-section">
+            <div class="resume-label">Professional Experience</div>
+            <div class="md:col-span-2 space-y-16">
+                
+                <div class="space-y-4">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="text-xl font-bold">E-Commerce Intern</h3>
+                            <p class="text-slate-400 text-xs font-bold uppercase tracking-widest mt-1">Ministry of Trade and Export Development</p>
+                        </div>
+                        <span class="text-slate-300 text-[10px] font-bold bg-slate-50 px-3 py-1 rounded-full uppercase tracking-widest">2024</span>
+                    </div>
+                    <ul class="bullet-list">
+                        <li class="bullet-item"><span class="bullet-dot">●</span> Researching export market trends and identifying global trade opportunities.</li>
+                        <li class="bullet-item"><span class="bullet-dot">●</span> Preparing analytical reports on international trade policies.</li>
+                        <li class="bullet-item"><span class="bullet-dot">●</span> Contributing to strategic discussions on Tunisia’s market positioning.</li>
+                    </ul>
+                </div>
+
+                <div class="space-y-4">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="text-xl font-bold">Email Marketing Analyst Intern</h3>
+                            <p class="text-slate-400 text-xs font-bold uppercase tracking-widest mt-1">MASS Analytics</p>
+                        </div>
+                        <span class="text-slate-300 text-[10px] font-bold bg-slate-50 px-3 py-1 rounded-full uppercase tracking-widest">2024</span>
+                    </div>
+                    <ul class="bullet-list">
+                        <li class="bullet-item"><span class="bullet-dot">●</span> Analyzing B2B email performance to optimize engagement and ROI.</li>
+                        <li class="bullet-item"><span class="bullet-dot">●</span> Managing A/B testing and growth strategies for lead generation.</li>
+                        <li class="bullet-item"><span class="bullet-dot">●</span> Creating digital assets and visuals using Canva for social media campaigns.</li>
+                    </ul>
+                </div>
+
+                <div class="space-y-4">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="text-xl font-bold">English Tutor</h3>
+                            <p class="text-slate-400 text-xs font-bold uppercase tracking-widest mt-1">Freelance</p>
+                        </div>
+                        <span class="text-slate-300 text-[10px] font-bold bg-slate-50 px-3 py-1 rounded-full uppercase tracking-widest">2022</span>
+                    </div>
+                    <ul class="bullet-list">
+                        <li class="bullet-item"><span class="bullet-dot">●</span> Mentored 50+ students with a 30% average improvement in test scores.</li>
+                        <li class="bullet-item"><span class="bullet-dot">●</span> Developed customized learning programs for business communication.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
 
         <div class="resume-section">
-
-            <div class="resume-label">Professional Experience</div>
-
-            <div class="md:col-span-2 space-y-16">
-
-                
-
-                <div class="space-y-4">
-
-                    <div class="flex justify-between items-start">
-
-                        <div>
-
-                            <h3 class="text-xl font-bold">E-Commerce Intern</h3>
-
-                            <p class="text-slate-400 text-xs font-bold uppercase tracking-widest mt-1">Ministry of Trade and Export Development</p>
-
-                        </div>
-
-                        <span class="text-slate-300 text-[10px] font-bold bg-slate-50 px-3 py-1 rounded-full uppercase tracking-widest">2024</span>
-
-                    </div>
-
-                    <ul class="bullet-list">
-
-                        <li class="bullet-item"><span class="bullet-dot">●</span> Researching export market trends and identifying global trade opportunities.</li>
-
-                        <li class="bullet-item"><span class="bullet-dot">●</span> Preparing analytical reports on international trade policies.</li>
-
-                        <li class="bullet-item"><span class="bullet-dot">●</span> Contributing to strategic discussions on Tunisia’s market positioning.</li>
-
-                    </ul>
-
+            <div class="resume-label">Education</div>
+            <div class="md:col-span-2 space-y-10">
+                <div class="group">
+                    <p class="text-xs text-blue-600 font-bold mb-1 italic">Expected 2027</p>
+                    <h4 class="font-bold text-lg leading-tight">Master’s Degree in TESOL</h4>
+                    <p class="text-slate-500 text-sm">Faculty of Humanities and Social Sciences of Tunis (FSHST)</p>
                 </div>
-
-
-
-                <div class="space-y-4">
-
-                    <div class="flex justify-between items-start">
-
-                        <div>
-
-                            <h3 class="text-xl font-bold">Email Marketing Analyst Intern</h3>
-
-                            <p class="text-slate-400 text-xs font-bold uppercase tracking-widest mt-1">MASS Analytics</p>
-
-                        </div>
-
-                        <span class="text-slate-300 text-[10px] font-bold bg-slate-50 px-3 py-1 rounded-full uppercase tracking-widest">2024</span>
-
-                    </div>
-
-                    <ul class="bullet-list">
-
-                        <li class="bullet-item"><span class="bullet-dot">●</span> Analyzing B2B email performance to optimize engagement and ROI.</li>
-
-                        <li class="bullet-item"><span class="bullet-dot">●</span> Managing A/B testing and growth strategies for lead generation.</li>
-
-                        <li class="bullet-item"><span class="bullet-dot">●</span> Creating digital assets and visuals using Canva for social media campaigns.</li>
-
-                    </ul>
-
+                <div class="group">
+                    <p class="text-xs text-slate-400 font-bold mb-1 italic">Graduated 2025</p>
+                    <h4 class="font-bold text-lg leading-tight">Bachelor’s Degree in English for Business & Communication</h4>
+                    <p class="text-slate-500 text-sm">The Higher Institute of Applied Studies in Humanities of Tunis (ISEAHT)</p>
                 </div>
+            </div>
+        </div>
 
+    </main>
 
+    <footer class="py-20 text-center">
+        <p class="text-[10px] font-bold text-slate-300 uppercase tracking-[0.5em]">Malek Bouallegue • 2026</p>
+    </footer>
 
-                <div class="space-y-4">
-
-                    <div class="flex justify-between items-start">
+</body>
+</html>
