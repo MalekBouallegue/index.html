@@ -10,103 +10,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Volunteer Space | Malek Bouallegue</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Outfit', sans-serif; }
-        .bullet-point { display: flex; gap: 0.75rem; align-items: flex-start; margin-bottom: 1rem; color: #64748b; }
+        .bullet-point { display: flex; gap: 0.75rem; align-items: flex-start; margin-bottom: 1rem; color: #64748b; font-size: 0.875rem; }
         .bullet-icon { color: #2563eb; margin-top: 0.375rem; font-size: 8px; }
     </style>
 </head>
 <body class="bg-[#FCFCFC] text-slate-900">
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MV4VDR9M"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <nav class="p-8 sticky top-0 z-50 bg-[#FCFCFC]/90 backdrop-blur-md max-w-6xl mx-auto flex justify-between items-center border-b border-slate-100">
-        <a href="index.html" class="font-bold text-xl uppercase tracking-tighter">Malek B.</a>
-        <div class="space-x-8 text-[10px] font-bold uppercase tracking-widest text-slate-400">
-            <a href="index.html" class="hover:text-black transition">About Me</a>
-            <a href="resume.html" class="hover:text-black transition">Resume</a>
-            <a href="projects.html" class="hover:text-black transition">Projects</a>
-            <a href="volunteer.html" class="text-black border-b border-black pb-1">Volunteer Space</a>
+
+    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-100">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="index.html" class="font-bold text-lg md:text-xl uppercase tracking-tighter">Malek B.</a>
+            <div class="flex items-center space-x-3 md:space-x-8 text-[9px] md:text-xs font-bold uppercase tracking-widest text-slate-400">
+                <a href="index.html" class="hover:text-black transition">About Me</a>
+                <a href="resume.html" class="hover:text-black transition">Resume</a>
+                <a href="projects.html" class="hover:text-black transition">Projects</a>
+                <a href="volunteer.html" class="text-black border-b border-black pb-1">Volunteer</a>
+            </div>
         </div>
     </nav>
 
-    <main class="max-w-6xl mx-auto px-8 py-24 space-y-32">
-        
+    <main class="max-w-6xl mx-auto px-6 py-12 md:py-24 space-y-24">
         <header class="max-w-3xl">
-            <span class="text-blue-600 text-[10px] font-black uppercase tracking-[0.4em] mb-4 block">Impact & Community</span>
-            <h1 class="text-7xl font-bold tracking-tighter leading-none">A space where I <br><span class="text-blue-600">continuously thrive.</span></h1>
+            <span class="text-blue-600 text-[10px] font-black uppercase tracking-[0.4em] mb-4 block">Impact</span>
+            <h1 class="text-5xl md:text-7xl font-bold tracking-tighter leading-tight">A space to <span class="text-blue-600">thrive.</span></h1>
         </header>
 
-        <section class="grid md:grid-cols-2 gap-16 items-center">
-            <div class="space-y-8">
-                <div class="space-y-2">
-                    <span class="text-blue-600 text-[10px] font-black uppercase tracking-[0.4em]">Leadership & Outreach</span>
-                    <h2 class="text-5xl font-bold tracking-tighter">JCI Leaders Beb Souika</h2>
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6">
+                <h2 class="text-3xl md:text-5xl font-bold tracking-tighter">JCI Leaders Beb Souika</h2>
+                <div class="bullet-point">
+                    <span class="bullet-icon">●</span>
+                    <p>Sent over 1,500 outreach emails to corporate sponsors, securing funding.</p>
                 </div>
-                
-                <div class="space-y-4">
-                    <div class="bullet-point">
-                        <span class="bullet-icon">●</span>
-                        <p>Sent over 1,500 outreach emails to corporate sponsors, securing critical event funding.</p>
-                    </div>
-                    <div class="bullet-point">
-                        <span class="bullet-icon">●</span>
-                        <p>Promoted to Commissioner and currently serving as External Relations Consultant.</p>
-                    </div>
-                    <div class="bullet-point">
-                        <span class="bullet-icon">●</span>
-                        <p>Active content writer and video editor, producing weekly community updates.</p>
-                    </div>
+                <div class="bullet-point">
+                    <span class="bullet-icon">●</span>
+                    <p>Served as External Relations Consultant since Nov 2023.</p>
                 </div>
             </div>
-
-            <div class="relative group">
-                <div class="absolute -inset-4 bg-blue-50 rounded-[3rem] -rotate-2 transition group-hover:rotate-0 duration-500"></div>
-                
-                <div class="relative overflow-hidden rounded-[3rem] border border-slate-100 shadow-2xl">
-                    <img src="jci-collage.jpg" class="w-full h-auto object-cover transform transition duration-1000 group-hover:scale-105" alt="JCI session">
-                    <div class="absolute inset-0 bg-gradient-to-t from-white/20 via-transparent to-transparent"></div>
-                </div>
-                
-                <div class="absolute bottom-6 left-6 bg-white/60 backdrop-blur-md px-4 py-2 rounded-full border border-slate-200">
-                    <p class="text-[9px] font-bold uppercase tracking-widest text-slate-600">Collaborative Sessions 2023-2026</p>
-                </div>
+            <div class="rounded-[2rem] overflow-hidden shadow-2xl h-64 md:h-auto bg-slate-100">
+                <img src="jci-collage.jpg" class="w-full h-full object-cover" alt="JCI Session">
             </div>
         </section>
-
-        <section class="grid md:grid-cols-2 gap-16 items-center">
-             
-            <div class="relative group order-2 md:order-1">
-                <div class="absolute -inset-4 bg-blue-50 rounded-[3rem] rotate-2 transition group-hover:rotate-0 duration-700"></div>
-                
-                <div class="relative overflow-hidden rounded-[3rem] border border-slate-100 shadow-2xl">
-                    <img src="community-collage.jpg" class="w-full h-auto object-cover transform transition duration-1000 group-hover:scale-105" alt="Community engagement">
-                </div>
-            </div>
-
-            <div class="space-y-12 order-1 md:order-2">
-                <h2 class="text-4xl font-bold tracking-tighter">Community Impact</h2>
-                
-                <div class="space-y-8">
-                    <div>
-                        <h3 class="text-blue-600 font-bold uppercase text-xs tracking-widest mb-3">American Corner Tunis</h3>
-                        <p class="text-slate-500 text-sm leading-relaxed">Actively promoting the space and regularly moderating English conversation sessions. Involved participant in the Debate Club, Dance Club, and specialized workshops.</p>
-                    </div>
-
-                    <div>
-                        <h3 class="text-blue-600 font-bold uppercase text-xs tracking-widest mb-3">Green City Movement</h3>
-                        <p class="text-slate-500 text-sm leading-relaxed">Organized clean-up drives, transforming discarded areas, and facilitating workshops on sustainable behavior change in local communities.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
     </main>
 
-    <footer class="py-20 text-center border-t border-slate-100">
-        <p class="text-[10px] font-bold text-slate-300 uppercase tracking-[0.5em]">Malek Bouallegue • 2026</p>
+    <footer class="py-16 text-center">
+        <p class="text-[9px] font-bold text-slate-300 uppercase tracking-[0.5em]">Malek Bouallegue • 2026</p>
     </footer>
-
 </body>
 </html>
