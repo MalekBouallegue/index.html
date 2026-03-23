@@ -14,7 +14,7 @@
     <nav class="p-8 max-w-6xl mx-auto flex justify-between items-center">
         <span class="font-bold text-xl uppercase tracking-tighter">Malek B.</span>
         <div class="hidden md:flex space-x-8 text-xs font-bold uppercase tracking-widest text-slate-400">
-            <a href="index.html" class="text-black">About Me</a>
+            <a href="index.html" class="text-black border-b border-black pb-1">About Me</a>
             <a href="resume.html" class="hover:text-black transition">Resume</a>
             <a href="projects.html" class="hover:text-black transition">Projects</a>
             <a href="volunteer.html" class="hover:text-black transition">Volunteer Space</a>
@@ -25,17 +25,19 @@
     <main class="max-w-6xl mx-auto px-8 py-20 grid md:grid-cols-2 gap-16 items-center">
         
         <div class="space-y-8">
-            <h1 class="text-7xl font-bold tracking-tighter leading-none">
-                Welcome <br>
-                <span class="text-blue-600">I'm Malek.</span>
-            </h1>
-
-            <p class="text-xl text-slate-500 font-light leading-relaxed">
-                Coming from a Master’s in TESOL, I view digital marketing through the lens of engagement and human behavior. Whether coaching <strong>50+ students</strong> or managing <strong>1,500+ B2B leads</strong>, my focus is clear communication that drives action.
-            </p>
+            <div class="space-y-4">
+                <h1 class="text-7xl font-bold tracking-tighter leading-[0.9]">
+                    Welcome. <br>
+                    <span class="text-blue-600">I'm Malek.</span>
+                </h1>
+                
+                <p class="text-lg text-slate-500 font-light leading-relaxed max-w-md">
+                    Coming from a Master’s in TESOL, I view digital marketing through the lens of engagement and human behavior. Whether coaching <strong>50+ students</strong> or managing <strong>1,500+ B2B leads</strong>, my focus is clear communication that drives action.
+                </p>
+            </div>
 
             <div class="flex items-center gap-8 pt-4">
-                <a href="projects.html" class="bg-black text-white px-8 py-4 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-blue-600 transition duration-300">
+                <a href="projects.html" class="bg-black text-white px-8 py-4 rounded-full text-[10px] font-bold uppercase tracking-widest hover:bg-blue-600 transition duration-300">
                     View My Work
                 </a>
 
@@ -53,7 +55,31 @@
             <img src="profile.jpg" alt="Malek Bouallegue" 
                  class="relative rounded-[4rem] shadow-2xl w-full aspect-[4/5] object-cover grayscale hover:grayscale-0 transition duration-700">
         </div>
+
     </main>
+
+    <section class="bg-white py-20 border-t border-slate-100">
+        <div class="max-w-6xl mx-auto px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
+                <div>
+                    <h3 class="text-3xl font-bold tracking-tighter">50+</h3>
+                    <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mt-2">Students Mentored</p>
+                </div>
+                <div>
+                    <h3 class="text-3xl font-bold tracking-tighter">1.5K+</h3>
+                    <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mt-2">Outreach Leads</p>
+                </div>
+                <div>
+                    <h3 class="text-3xl font-bold tracking-tighter">MMM</h3>
+                    <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mt-2">Data Modeling</p>
+                </div>
+                <div>
+                    <h3 class="text-3xl font-bold tracking-tighter">TESOL</h3>
+                    <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mt-2">Master's Focus</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
 </body>
 </html>
